@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Controle de Entrada</title>
+</head>
+<style>
+   img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+</style>
+<body>
+  <h1>Controle de Entrada</h1>
+  <form id="form-pesquisa">
+    <label for="inputRA">RA do aluno:</label>
+    <input type="text" id="inputRA" name="RA" required>
+    <button type="submit">Pesquisar</button>
+  </form>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Curso</th>
+        <th>RA</th>
+        <th>Foto</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-alunos">
+    </tbody>
+  </table>
+
+</body>
+<script src="script.js"> </script>
+
+</html>
